@@ -1,0 +1,70 @@
+body {
+    color: #fff;
+}
+
+
+.row {
+    height: 100%;
+}
+
+[class*="col"] {
+    background: rgb(236, 193, 200);
+    border: 1px rgb(0, 0, 0) solid;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    border: 1px solid rgb(104, 102, 102);
+}
+
+[class*="col"] > .row > [class*="col"] 
+{
+   height: 100%;
+}
+
+.color{
+    background-color: rgb(247, 140, 158);
+    border: 1px solid white;
+}
+
+.pad{
+    padding: 5px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.black{
+    background-color: black;
+    display: flex;
+}
+
+.black div{
+    height: 100%;
+    border: 1px solid rgb(104, 102, 102);
+    flex-grow: 1;
+}
+
+.gray{
+    background-color: rgb(167, 166, 166);
+}
+
+.gold{
+    background-color: gold;
+    display: flex;
+}
+
+.gold div{
+    height: 100%;
+    border: 1px solid rgb(41, 40, 40);
+    flex-grow: 1;
+}
+
+.red{
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+}
