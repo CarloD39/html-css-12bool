@@ -23,8 +23,11 @@ body {
     padding: 5px;
 }
 
+
+
 .color{
     background-color: rgb(243, 150, 166);
+    border: 1px solid white;
 }
 
 [class*="col"] > .row > [class*="col"] 
